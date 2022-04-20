@@ -1,0 +1,39 @@
+body {
+  margin: 0em;
+  font-family: "Noto sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.cover {
+  height: 400px;
+  color: white;
+  background-image: url(https://cdn.glitch.global/c84fceab-24ec-44e9-84d9-57669431f8c8/imagen.jpg?v=1650408024882);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5),
+    0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+  display: block;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border: 9px solid rgba(0, 0, 0, 0.05);
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid #555555;
+}
